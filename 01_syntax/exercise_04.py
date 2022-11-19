@@ -6,6 +6,16 @@ günfarki=tarih_1[0]-tarih_2[0]
 ayfarki=(tarih_1[1]-tarih_2[1])*30
 yilfarki=(tarih_1[2]-tarih_2[2])*360
 günfarki+=(ayfarki+yilfarki)
-print(günfarki)
+
 # Günün pozitif olmasını sağla ve hangi tarih daha önce olduğunu söyle
+if günfarki<0:
+    print(f"Tarih 2 tarih 1'den {günfarki*(-1)} gün ilerde.")
+elif günfarki==0:
+    print("Bu iki tarih aynı")
+else: 
+    print(f"Tarih 1 tarih 2'den {günfarki} gün ilerde.")
+    
+
+
+
 
