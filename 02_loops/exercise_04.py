@@ -1,0 +1,1 @@
+#Kullanıcıdan bir sayı al. Rakamlarını toplayıp kendisine eşitmi söyle. abc ise a+b+c yi bulcaz.
