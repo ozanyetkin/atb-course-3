@@ -1,4 +1,4 @@
-#Kullanıcıdan bir sayı alın.
+#Kullanıcıdan pozitif tamsayı alın.
 #Bu sayının bölenlerini yazdırın.Bölen sayısını bulup çift mi tekmi yazdırın
 sayı=int(input("Sayıyı ver"))
 bölsayı=0
