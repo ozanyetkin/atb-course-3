@@ -1,2 +1,4 @@
-# Bir tam sayı listesi verilmiş olsun. x değerinin bu listeye göre mean squared errorunu bulmak istiyoruz.
-#Mean Squared Error = https://en.wikipedia.org/wiki/Mean_squared_error
+#Sezar şifrelemesi:Size verilen 
+# yazıdaki her karakteri alfabede n kaydırarak elde edilen karakterle değiştiriniz.
+# n sayısını kullanıcıdan alın.
+alfabe=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
