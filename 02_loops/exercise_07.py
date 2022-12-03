@@ -11,3 +11,4 @@ nnnnnnn --> n tane
 22
 1
 """
+print("asd",end="")
