@@ -1,0 +1,1 @@
+# Verilen tam sayı listesinde birbirine en yakın olan tamsayıların indexlerini bul.
