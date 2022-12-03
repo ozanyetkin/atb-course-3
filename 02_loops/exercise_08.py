@@ -1,1 +1,13 @@
-#Verilen tam sayıyı binary (ikilik sistemde) yazınız. Binary yazımında her arka arkaya 1 dizisinden sonra aynı uzunlukta 0 dizisi geliyo mu kontrol edip söyleyin.
+#Kullanıcıdan bir pozitif tam sayı al. Diyelimki n.
+"""
+Terminale bunu yazdır:
+1
+22
+333
+....
+nnnnnnn --> n tane
+....
+333
+22
+1
+"""
