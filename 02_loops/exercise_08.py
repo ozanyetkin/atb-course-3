@@ -1,0 +1,1 @@
+#Verilen tam sayıyı binary (ikilik sistemde) yazınız.
