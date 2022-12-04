@@ -1,2 +1,2 @@
-# Bir liste verilmiş olsun. Bu listenin içindeki objeleri indexleriyle beraber içeren bir liste oluşturcaz.
-#  Oluşturcağımız listenin içinde 2 elemanlı listeler olsun istiyoruz. Verilen liste [a,b] ise oluşturmak istediğimiz liste [[0,a],[1,b]] olcak.
+# Bir tam sayı listesi verilmiş olsun. x değerinin bu listeye göre mean squared errorunu bulmak istiyoruz.
+#Mean Squared Error = https://en.wikipedia.org/wiki/Mean_squared_error

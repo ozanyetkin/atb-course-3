@@ -1,4 +1,2 @@
-#Sezar şifrelemesi:Size verilen 
-# yazıdaki her karakteri alfabede n kaydırarak elde edilen karakterle değiştiriniz.
-# n sayısını kullanıcıdan alın.
-alfabe=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+# Bir liste verilmiş olsun. Bu listenin içindeki objeleri indexleriyle beraber içeren bir liste oluşturcaz.
+#  Oluşturcağımız listenin içinde 2 elemanlı listeler olsun istiyoruz. Verilen liste [a,b] ise oluşturmak istediğimiz liste [[0,a],[1,b]] olcak.

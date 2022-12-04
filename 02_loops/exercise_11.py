@@ -1,2 +1,2 @@
-# Bir tam sayı listesi verilmiş olsun. x değerinin bu listeye göre mean squared errorunu bulmak istiyoruz.
-#Mean Squared Error = https://en.wikipedia.org/wiki/Mean_squared_error
+# Tamsayı listesinden önce azalan indexlerin yerinde "-" yazan artan indexlerin yerinde "+" yazan yeni bir liste oluştur.
+# Sonrada değişim olan yerleri işaretle.
