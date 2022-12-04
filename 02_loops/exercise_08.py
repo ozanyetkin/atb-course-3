@@ -19,7 +19,7 @@ for geriye in range(-1,-len(indexler),-1):
         break
 cevap=indexler[-1:cutoff-1:-1]
 """
-#Üstteki kod yerine loopta kullabiliriz.
+#Kesmek yerine ekleyerekte gidebiliriz.
 cevap=[]
 for i in range(-1,-len(indexler),-1):
     cevap.append(indexler[i])
