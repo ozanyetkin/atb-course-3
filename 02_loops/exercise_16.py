@@ -1,1 +1,2 @@
-#Verilen tam sayıyı binary (ikilik sistemde) yazınız. Binary yazımında her arka arkaya 1 dizisinden sonra aynı uzunlukta 0 dizisi geliyo mu kontrol edip söyleyin.
+# Verilen bir yazıda alfabedeki her karakterin görülme sıklığını bulunuz.
+alfabe=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']

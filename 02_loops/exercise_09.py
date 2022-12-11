@@ -1,5 +1,7 @@
-#Kullanıcıdan iki sayı pozitif tam sayı alcaz. Biri v diğeri n.
-# Yani [x1,x2,x3,...,xn] formundaki vectörlerden oluşan bir küme
-#  ve xler 0 ile 10 arasında bir tam sayı.
-# Bütün olası vectörleri içeren bir liste yaratınız.
-
+#Fibonacci serisi 0 ve 1 le başlar.
+#Sonraki sayılar kendilerinden önce gelen 2 sayının toplamıdırlar.
+#Bu seriyi 50'inci sayıya kadar ilerletiniz.
+fibo=[0,1]
+for i in range(48):
+    fibo.append(fibo[i]+fibo[i+1])
+print(fibo)
