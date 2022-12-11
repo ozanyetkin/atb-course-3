@@ -18,7 +18,13 @@ for i in range(len(girdi)-1):
         monocitiy.append("-")
 landmark=[]
 for e in range(len(monocitiy)-1):
-    if monocitiy[e]==monocitiy[e+1]:
+    if monocitiy[e]=="0" or monocitiy[e+1]=="0":
+        landmark.append("yamaç")
+    elif monocitiy[e]==monocitiy[e+1]:
         landmark.append("mono")
-        
+    elif monocitiy[e]=="+" and monocitiy[e+1]=="-":
+        landmark.append("tepe")
+    else:
+        landmark.append("çukur")
+print(landmark)
     
