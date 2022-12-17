@@ -18,9 +18,8 @@ for i in listemiz:
 n=0
 while n<15 :
     print(n)
-    if n%2==0:
-        break
     n=n+1
+
 
 
 
