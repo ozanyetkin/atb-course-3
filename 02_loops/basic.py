@@ -1,4 +1,4 @@
-
+"""
 for i in range(10):
     print(i)
 for char in "746":
@@ -14,6 +14,15 @@ for i in listemiz:
     print(i)
     if i == "kebap":
         aradıgım.append(i)
+        """
+n=0
+while n<15 :
+    print(n)
+    if n%2==0:
+        break
+    n=n+1
+
+
 
 
 
