@@ -1,6 +1,6 @@
 
-
-a = ["a", "b"]
+import 
+a=["a","b"]
 b = ["a", "b"]
 
 print(id(a) == id(b))
@@ -21,5 +21,7 @@ print(id(x) == id(y))
 x=y
 y+=1
 print(id(x)==id(y))
+
+
 
 

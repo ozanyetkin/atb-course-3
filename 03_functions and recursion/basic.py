@@ -30,6 +30,49 @@ def bölen(x):
         if x%i==0:
             liste.append(i)
     return liste
-print(bölen(24))
+#print(bölen(24))
 #Verilen listeden en büyük ve en küçük tam sayıyı bulan fonksiyon(lar)
+def büyük(lst):
+    en=lst[0]
+    for sayı in lst[1:]:
+        if sayı>en:
+            en=sayı
+    return en
+def küçük(lst):
+    en=lst[0]
+    for sayı in lst[1:]:
+        if sayı<en:
+            en=sayı
+    return en
+#print(küçük([2,7,4,9]))
 #Verilen iki sayının en büyük ortak bölenini bulan fonksiyon
+def ebob(sayi1,sayi2):
+    ebob=1
+    for i in range(1,küçük([sayi1,sayi2])+1):
+        if sayi1%i==0 and sayi2%i==0:
+            ebob=i
+    return ebob
+print(ebob(10,30))
+#Bir listedeki iki indexteki objelerin yerini değiştiren bir fonksiyon yazalım
+iste=["messi","cup","soup","pain","idea","anıl"]
+def değiş(index1,index2,lst):
+    temp=lst[index1]
+    lst[index1]=lst[index2]
+    lst[index2]=temp
+    return lst
+print(değiş(0,2,iste))
+#Verilen listeyi küçükten büyüğe sıralayan bir fonksiyon yazalım
+def sırala(lst):
+    for x in range(len(lst)):
+        for i in range(x+1,len(lst)):
+            if lst[x]>lst[i]:
+                lst=değiş(x,i,lst)
+    return lst
+#print(sırala([7,5,9,3,5,734,67,235576,45677764,3454]))
+#Fonksiyonları kendi içindede çağırabiliriz. Örneğin fibanocci serisini yazalım
+def fib(x):
+    if x==0 or x==1:
+        return 1
+    else:
+        return fib(x-1)+fib(x-2)
+
