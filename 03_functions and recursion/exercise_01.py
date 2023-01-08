@@ -20,7 +20,22 @@ def gcd(a,b):
 def lcm(a,b):
     return (a*b)//gcd(a,b)
 #Bir tam sayıdan küçük olan asal sayıları bulan fonksiyon yazınız.
+primes=[2]
+def prime_upto(limit):
+    for aday in range(3,limit,2):
+        flag=True
+        for prime in primes:
+            if aday%prime==0:
+                flag=False
+                break
+            if prime>aday**(1/2):
+                break
+        if flag:
+            primes.append(aday)
+        
+"""
 primes=[2,3,5]
+
 def prime_upto(x):
     denencek=[7,11]
     while primes[-1]<=x:
@@ -29,16 +44,31 @@ def prime_upto(x):
             for prime in primes:
                 if sayı%prime==0:
                     flag=False
+                if prime>sayı**(1/2):
+                    break
             if flag:
                 primes.append(sayı)
         denencek=[i+6 for i in denencek]
-print(primes)
-prime_upto(300)
-print(primes)
-
-
-
-
+        """
 #Bir tam sayının bütün asal çarpanlarının olduğu bir liste yaratan fonksiyonu yazalım.
-#İpucu x'in asal çarpanları sqrt(x)'den küçük olmak zorunda.
+def çarpanlar(sayı):
+    prime_upto(sayı)
+    çarpanlr=[]
+    for prime in primes:
+        if sayı%prime==0:
+            çarpanlr.append(prime)
+    return çarpanlr
+
 #Bir tam sayıyı asal çarpanlarına ayıran fonksiyon yazınız.
+def ayır(sayı):
+    prime_upto(sayı+2)
+    çarpanlar=[]
+    while sayı!=1:
+        for prime in primes:
+            if sayı%prime==0:
+                çarpanlar.append(prime)
+                sayı=sayı//prime
+                break
+    return çarpanlar
+print(ayır(98))
+
