@@ -1,0 +1,1 @@
+#Verilen bir reel sayıyı istenilen ondalığa yuvarlayan bir fonksiyon yazınız.
