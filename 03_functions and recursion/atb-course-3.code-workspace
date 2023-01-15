@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "atb-course-3",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.mouseWheelZoom": true,
+		"window.zoomLevel": 5,
+		"editor.fontSize": 22,
+		"terminal.integrated.fontSize": 22
+	}
+}
