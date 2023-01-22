@@ -8,5 +8,10 @@ def çeşit(kelime:str):
     return count
 def finder(yazılistesi):
     find=yazılistesi[0]
-    for a in yazılistesi[1:]:
-        çeşit(a)
+    for yazı in yazılistesi[1:]:
+        if çeşit(yazı)>çeşit(find):
+            find=yazı
+    return find
+string_list = ["Hello World", "1234567890", "abcdefghijklmnopqrstuvwxyz"]
+sa = finder(string_list)
+print(sa)
